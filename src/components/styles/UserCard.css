@@ -58,3 +58,23 @@
     font-size: 24px;
     color: white;
 }
+
+@media (max-width: 768px) {
+    .user__container {
+        width: 100%; 
+        max-width: 500px;
+        margin: 20px; 
+    }
+
+    .user__footer {
+        margin-left: 0; 
+        justify-content: center; 
+    }
+
+    .user__delete,
+    .user__edit {
+        width: 40px; 
+        height: 40px;
+        font-size: 20px;
+    }
+}
