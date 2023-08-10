@@ -1,0 +1,60 @@
+
+.user__container {
+
+    border-radius: 4px;
+    border: 1px solid rgba(82, 79, 79, 0.322);
+    width: 381px;
+    height: 274px;
+    margin: 30px;
+    padding: 20px;
+}
+
+.user__hr{
+    border: 1px solid #c7c6c69c;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.user__title {
+    text-align: center;
+}
+
+.user__info li {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.user__title__span {
+    width: 100%;
+    color: #afa5a5;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.user__footer {
+    margin-left: 70%;
+    width: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.user__delete {
+    width: 43px;
+    height: 43px;
+    background-color: #D85D5D;
+    border-radius: 4px; 
+    color: white;
+    font-size: 24px;
+    
+}
+
+.user__edit {
+    width: 43px;
+    height: 43px;
+    background-color: #BDBDBD;
+    border-radius: 4px;
+    font-size: 24px;
+    color: white;
+}
