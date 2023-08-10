@@ -25,3 +25,19 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+    .container__header {
+        padding: 10px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .formuser__btn__create {
+        width: 130px;
+        height: 25px;
+        font-size: 10px;
+    }
+}
