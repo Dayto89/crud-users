@@ -9,7 +9,7 @@
 .title{
     
     font-size: 40px;
-    margin-right: 60%;
+    margin-right: 70%;
 }
 
 .formuser__btn__create {
@@ -19,6 +19,7 @@
     border-radius: 4px;
     color: white;
     font-size: 15px;
+    margin-right: 5%;
 }
 
 .container__user {
